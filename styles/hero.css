@@ -3,16 +3,59 @@
   padding: 0;
   margin: 0;
 }
-.hero-section{
-  background-color: #1F2937;
+header{
+background-color: #1F2937;
 }
-
-.logo{
-  width: 100px;
+.hero-section{
+ width: 60%;
+ margin: 0 auto;
+}
+h3{
+  color: white;
+  font-size:24px;
 }
 .hero-image{
   max-width: 400px;
 }
 img{
   width: 100%;
+}
+.hero-image{
+  max-width: 500px;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links{
+  display: flex;
+  gap: 2em;
+}
+.nav-links > li{
+  list-style: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.hero-sub-section{
+  display: flex;
+  padding: 6em 0;
+  align-items: center;
+}
+h1{
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+p{
+  font-size: 18px;
+  color: #e5e7eb;
+}
+button{
+  border: none;
+  padding: 1em 3em;
+  border-radius: 14px;
+  color: #e5e7eb;
+  margin: 2em 0 ;
+  background-color: #3882f6;
 }
