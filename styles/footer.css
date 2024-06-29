@@ -1,0 +1,24 @@
+.footer-call-to-action{
+  width: 80%;
+  margin: 5em auto;
+  background-color: #3882f6;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2em 1em;
+}
+.footer-call-to-action > article > h2{
+  color: #f9faf8;
+}
+.footer-btn{
+  border: #f9faf8 solid 2px;
+}
+.footer-end{
+  background-color: #1f2937;
+  width: 100%;
+  text-align: center;
+  color: #f9faf8;
+  /* height: 50px; */
+  padding: 2em 0;
+  margin: 2em 0 0 0;
+}
